@@ -1,0 +1,9 @@
+.list span{
+    font-family: 'Roboto', sans-serif;
+}
+svg{
+    pointer-events: none;
+}
+.delete-button{
+    cursor: pointer;
+}
