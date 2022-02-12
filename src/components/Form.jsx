@@ -21,7 +21,7 @@ export default class Form extends Component {
                   onChange={value.changeValue}
                 />
 
-                <div className="input-group mb-3">
+                <div className="input-group mb-3 inputs-groups">
                   <select className="form-control selects" style={{ flex: 2 }}
                   onChange={() =>
                     value.addCallCode(document.querySelector(".selects").value)
@@ -51,7 +51,7 @@ export default class Form extends Component {
                     style={{ flex: 10 }}
                     type="text"
                     name="phone"
-                    className="form-control"
+                    className="form-control add-inputs"
                     id="phone"
                     placeholder="Enter Number"
                     value={value.phone}

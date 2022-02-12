@@ -9,7 +9,9 @@ export class UserProvider extends Component {
     name: "",
     phone: "",
     filter: "",
-    bgLight: "bg-light",
+    color1: "color-1",
+    color2: "color-2",
+    color:"text-white",
     countries: countries,
     calling: "",
     searchHandler: (e) => {

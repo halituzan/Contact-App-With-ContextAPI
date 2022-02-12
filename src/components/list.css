@@ -7,3 +7,22 @@ svg{
 .delete-button{
     cursor: pointer;
 }
+.ulList{
+    max-height: 440px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.ulList::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 10px;
+}
+.ulList::-webkit-scrollbar-track{
+    background: white;
+    border-radius: 15px;
+}
+.ulList::-webkit-scrollbar-thumb {
+    background: gray; 
+  }
+.ulList::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

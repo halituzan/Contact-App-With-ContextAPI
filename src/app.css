@@ -1,0 +1,44 @@
+.color-1 {
+  background-color: bisque;
+}
+.color-2 {
+  background-color: darksalmon;
+}
+.listLi {
+  animation-name: listli;
+  animation-duration: 1s;
+}
+
+@keyframes listli {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .contact {
+    width: 600px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+    .listLi{
+        flex-direction: column;
+        align-items: center;
+    }
+   
+  }
+@media screen and (max-width: 425px) {
+  .inputs-groups{
+      flex-direction: column;
+  }
+  .selects{
+      width: 100%!important;
+      flex: 12!important;
+  }
+  .add-inputs{
+      width: 100%!important;
+  }
+}
